@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 100vh;
+    background-color: red;
+    
+}
+
+.section_blackHOle {
+    height: 100vh;
+    color: white;
+    background-color: transparent;
+}
+
+.canvas {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.headline {
+    font-size: 4em;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 10%;
+    position: absolute;
+    z-index: 10;
+    /*background-color: red; */
+
+    margin-left: 2%;
+    margin-top: 2%;
+
+    display: flex;
+
+    flex-direction: column;
+    font-family: 'Poiret One', cursive;
+
+    cursor: default;
+
+
+}
+
+.smallheadline {
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+
+    margin-top: 1%;
+  
+}
+.main {
+    position: relative;
+}
+
+@media screen and (max-width: 948px) {
+/* start of medium tablet styles */
+    body, html { overflow: hidden; }
+
+    .headline {
+        width: 80%;
+        margin-left: 10%;
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .smallheadline {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .headline {
+
+        margin-top: 10%;
+
+    }
+
+}
+
+@media screen and (min-width: 1500px)
+{
+    .headline {
+        margin-top: 2%;
+    }
+}
+
+.headline_cluster {
+    font-size: 4em;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    z-index: 10;
+    /*
+    
+    background-color: red; 
+    */
+
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Poiret One', cursive;
+
+    color: white;
+
+    cursor: default;
+}
+
+.cluster_small_head {
+    margin-top: 1%;
+    font-size: 30px;
+}
+
+@keyframes type{ 
+    from { 
+         width: 0; 
+         } 
+     }
+
+.footer_cluster {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Poiret One', cursive;
+
+    position: absolute;
+
+
+    z-index: 10;
+
+    margin-top: 700px;
+    margin-left: 39%;
+
+
+    height: 5%;
+}
+
+@media screen and (min-height: 720px){
+    .footer_cluster{
+
+        margin-top: 700px;
+        margin-left: 41%;
+    }
+}
+
+
+@media screen and (min-height: 800px){
+    .footer_cluster{
+
+        margin-top: 900px;
+        margin-left: 41%;
+    }
+}
+
+
+@media screen and (max-width: 948px) {
+    /* start of medium tablet styles */
+        body, html { overflow: hidden; }
+    
+        .headline_cluster {
+            width: 100%;
+            font-size: 40px;
+            margin: 3%;
+        }
+
+        .cluster_small_head {
+            font-size: 20px;
+            margin: 1%;
+        }
+
+        .footer_cluster {
+            margin-left: 25%;
+        }
+        
+    }
+
+@media screen and (max-width: 720px)
+{
+    .footer_cluster {
+        margin-left: 10%;
+    }
+}
