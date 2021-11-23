@@ -342,7 +342,7 @@ export default function StarClusterGL(sceneRef) {
       } 
       else if (glg.keyCode === 27)
       {
-          window.location.href = "http://localhost:3000/"
+          window.location.href = "https://SightMan3.github.io/"
       }
     }
 

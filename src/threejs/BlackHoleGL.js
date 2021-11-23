@@ -417,7 +417,7 @@ export default function ThreeEntryPoint(sceneRef) {
     // change route to star cluster
     if (camera.position.z == 0 && camera.position.y == -1 && (camera.position.x == 0 || camera.position.x == 5))
     {
-      window.location.href = "http://localhost:3000";
+      window.location.href = "https://SightMan3.github.io/";
     }
 
 

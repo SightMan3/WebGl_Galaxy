@@ -247,7 +247,7 @@ export default function StarClusterGL(sceneRef) {
 
           await sleep(500);
 
-          window.location.href = "http://localhost:3000/BlackHole"; 
+          window.location.href = "https://SightMan3.github.io/BlackHole"; 
       }
       else if (intersectsSolar.length > 0)
       {
@@ -262,7 +262,7 @@ export default function StarClusterGL(sceneRef) {
 
         await sleep(500);
 
-        window.location.href = "http://localhost:3000/SolarSystem"; 
+        window.location.href = "https://SightMan3.github.io/SolarSystem"; 
       }
   
       window.removeEventListener("touchend", diveToPoint);
