@@ -21,7 +21,6 @@ export default function StarClusterGL(sceneRef) {
    * init things
    * */ 
 
-  const gui = new dat.GUI()
 
   const scene = new THREE.Scene();
 
@@ -147,10 +146,6 @@ export default function StarClusterGL(sceneRef) {
   scene.add(BlackHole);
   scene.add(BlackHoleBall)
 
-  gui.add(BlackHole.position, "x");
-  gui.add(BlackHole.position, "y");
-  gui.add(BlackHole.position, "z");
-
 
   
 
@@ -264,6 +259,10 @@ export default function StarClusterGL(sceneRef) {
             z: SolarSystemBall.position.z - 100,
             stagger: 0.5
           });
+
+        await sleep(500);
+
+        window.location.href = "http://localhost:3000/SolarSystem"; 
       }
   
       window.removeEventListener("touchend", diveToPoint);

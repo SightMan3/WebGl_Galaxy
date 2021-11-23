@@ -152,7 +152,7 @@ body, html {
     .footer_cluster{
 
         margin-top: 700px;
-        margin-left: 41%;
+        margin-left: 38%;
     }
 }
 
@@ -161,9 +161,11 @@ body, html {
     .footer_cluster{
 
         margin-top: 900px;
-        margin-left: 41%;
+        margin-left: 38%;
     }
 }
+
+
 
 
 @media screen and (max-width: 948px) {
@@ -192,4 +194,13 @@ body, html {
     .footer_cluster {
         margin-left: 10%;
     }
+}
+  
+#head {
+    transition: all .2s ease-in-out;
+}
+
+#head > div {
+    margin-top: 1%;
+    font-size: 30px;
 }

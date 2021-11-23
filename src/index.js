@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import StarCluster from "./components/StarCluster"
+import SolarSystem from "./components/SolarSystem"
 import * as serviceWorker from './serviceWorker';
 import {
     BrowserRouter,
@@ -17,6 +18,7 @@ ReactDOM.render(
         <Routes>
             <Route path="/" element={<StarCluster />} />
             <Route path="/BlackHole" element={<App />} />
+            <Route path="/SolarSystem" element={<SolarSystem />} />
         </Routes>
     </BrowserRouter>,
     rootElement

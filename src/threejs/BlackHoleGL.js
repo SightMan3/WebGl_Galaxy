@@ -22,7 +22,6 @@ export default function ThreeEntryPoint(sceneRef) {
    * */ 
 
  
-  const gui = new dat.GUI()
   let mixer;
   let clock = new THREE.Clock()
 

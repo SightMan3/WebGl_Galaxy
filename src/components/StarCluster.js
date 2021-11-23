@@ -22,7 +22,7 @@ export default class ThreeContainer extends Component {
           
         </div>
         <div className="footer_cluster">
-          press & move mous for interaction, click circles for transport
+          press & move mous for interaction &nbsp; | &nbsp; click circles for transport
         </div>
 
         <div className="canvas" ref={element => this.scene = element} />
