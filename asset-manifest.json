@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/WebGl_galaxy/static/css/main.c5183cd6.chunk.css",
-    "main.js": "/WebGl_galaxy/static/js/main.b2748fb5.chunk.js",
-    "main.js.map": "/WebGl_galaxy/static/js/main.b2748fb5.chunk.js.map",
+    "main.js": "/WebGl_galaxy/static/js/main.69eb70f7.chunk.js",
+    "main.js.map": "/WebGl_galaxy/static/js/main.69eb70f7.chunk.js.map",
     "runtime-main.js": "/WebGl_galaxy/static/js/runtime-main.45c429b6.js",
     "runtime-main.js.map": "/WebGl_galaxy/static/js/runtime-main.45c429b6.js.map",
     "static/js/2.f61f24bd.chunk.js": "/WebGl_galaxy/static/js/2.f61f24bd.chunk.js",
     "static/js/2.f61f24bd.chunk.js.map": "/WebGl_galaxy/static/js/2.f61f24bd.chunk.js.map",
     "index.html": "/WebGl_galaxy/index.html",
-    "precache-manifest.f9d6d2fbe0d1017ce21f66a70ffc6bbd.js": "/WebGl_galaxy/precache-manifest.f9d6d2fbe0d1017ce21f66a70ffc6bbd.js",
+    "precache-manifest.f0565b0f327f1d9648aa3cb5cef78f15.js": "/WebGl_galaxy/precache-manifest.f0565b0f327f1d9648aa3cb5cef78f15.js",
     "service-worker.js": "/WebGl_galaxy/service-worker.js",
     "static/css/main.c5183cd6.chunk.css.map": "/WebGl_galaxy/static/css/main.c5183cd6.chunk.css.map"
   }
